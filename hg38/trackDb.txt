@@ -7,7 +7,7 @@ superTrack on show
 shortLabel ATAC/mCG-RNA links
 longLabel  ATAC/mCG-RNA links
 
-  track Fulldata links
+  track Fulldata_links
   compositeTrack on
   parent Links on
   type bigInteract
@@ -16,8 +16,8 @@ longLabel  ATAC/mCG-RNA links
   allButtonPair on
   centerLabelsDense on
   
-    track Fulldata ATAC-RNA
-    parent Fulldata links
+    track Fulldata_ATAC-RNA
+    parent Fulldata_links
     type bigInteract 
     bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/cisCor_atac_250k.interact.bb
     shortLabel Fulldata ATAC-RNA links
@@ -26,8 +26,8 @@ longLabel  ATAC/mCG-RNA links
     visibility pack
     priority 1
     
-    track Fulldata mCG-RNA
-    parent Fulldata links
+    track Fulldata_mCG-RNA
+    parent Fulldata_links
     type bigInteract 
     bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/cisCor_mcg_250k.interact.bb
     shortLabel Fulldata mCG-RNA links
@@ -36,7 +36,7 @@ longLabel  ATAC/mCG-RNA links
     visibility pack
     priority 2
     
-  track EN links
+  track EN_links
   compositeTrack on
   parent Links on
   type bigInteract
@@ -45,8 +45,8 @@ longLabel  ATAC/mCG-RNA links
   allButtonPair on
   centerLabelsDense on
   
-    track EN ATAC-RNA
-    parent EN links
+    track EN_ATAC-RNA
+    parent EN_links
     type bigInteract 
     bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/cisCor_atac_250k_EN_v3.interact.bb
     shortLabel EN ATAC-RNA links
@@ -55,8 +55,8 @@ longLabel  ATAC/mCG-RNA links
     visibility pack
     priority 1
     
-    track EN mCG-RNA
-    parent EN links
+    track EN_mCG-RNA
+    parent EN_links
     type bigInteract 
     bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/cisCor_mcg_250k_EN.interact.bb
     shortLabel EN mCG-RNA links
