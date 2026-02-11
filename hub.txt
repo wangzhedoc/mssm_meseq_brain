@@ -1,0 +1,5 @@
+hub EN_hub
+shortLabel EN Hub
+longLabel EN multi-omics tracks
+genomesFile genomes.txt
+email wangzhedoc91@gmail.com
