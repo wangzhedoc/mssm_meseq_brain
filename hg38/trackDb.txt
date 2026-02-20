@@ -256,6 +256,459 @@ longLabel EN Cells
     priority 5
 
 ########################
+# EN RG ATAC and mCG Q20
+########################
+
+track EN_Q20
+superTrack on show
+shortLabel EN Q20
+longLabel EN Cells Q20
+
+  track EN-ATAC_Q20
+  compositeTrack on
+  parent EN_Q20 on
+  type bigWig
+  shortLabel EN-ATAC
+  maxHeightPixels 48:24:12
+  viewLimits 0:300
+  alwaysZero on
+  darkerLabels on
+  allButtonPair on
+  centerLabelsDense on
+  
+    track ATAC_EN_RG
+    parent EN-ATAC_Q20 
+    type bigWig 
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/EN_RG_atac.bw
+    shortLabel ATAC EN_RG
+    longLabel ATAC EN_RG
+    color 245,71,18
+    visibility full
+    priority 1
+    
+    track ATAC_EN_RG_ptimeQ1_Q20
+    parent EN-ATAC_Q20
+    type bigWig 
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/EN_RG_ptime_br3_q1_Q20.bw
+    shortLabel ATAC EN_RG Q1
+    longLabel ATAC EN_RG ptime Q1
+    color 240,96,52
+    visibility full
+    priority 2
+    
+    track ATAC_EN_RG_ptimeQ2_Q20
+    parent EN-ATAC_Q20
+    type bigWig 
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/EN_RG_ptime_br3_q2_Q20.bw
+    shortLabel ATAC EN_RG Q2
+    longLabel ATAC EN_RG ptime Q2
+    color 240,96,52
+    visibility full
+    priority 3
+    
+    track ATAC_EN_RG_ptimeQ3_Q20
+    parent EN-ATAC_Q20
+    type bigWig 
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/EN_RG_ptime_br3_q3_Q20.bw
+    shortLabel ATAC EN_RG Q3
+    longLabel ATAC EN_RG ptime Q3
+    color 240,96,52
+    visibility full
+    priority 4
+    
+    track ATAC_EN_RG_ptimeQ4_Q20
+    parent EN-ATAC_Q20 
+    type bigWig 
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/EN_RG_ptime_br3_q4_Q20.bw
+    shortLabel ATAC EN_RG Q4
+    longLabel ATAC EN_RG ptime Q4
+    color 240,96,52
+    visibility full
+    priority 5
+
+    track ATAC_EN_RG_ptimeQ5_Q20
+    parent EN-ATAC_Q20
+    type bigWig
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/EN_RG_ptime_br3_q5_Q20.bw
+    shortLabel ATAC EN_RG Q5
+    longLabel ATAC EN_RG ptime Q5
+    color 240,96,52
+    visibility full
+    priority 6
+
+    track ATAC_EN_RG_ptimeQ6_Q20
+    parent EN-ATAC_Q20
+    type bigWig
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/EN_RG_ptime_br3_q6_Q20.bw
+    shortLabel ATAC EN_RG Q6
+    longLabel ATAC EN_RG ptime Q6
+    color 240,96,52
+    visibility full
+    priority 7
+
+    track ATAC_EN_RG_ptimeQ7_Q20
+    parent EN-ATAC_Q20
+    type bigWig
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/EN_RG_ptime_br3_q7_Q20.bw
+    shortLabel ATAC EN_RG Q7
+    longLabel ATAC EN_RG ptime Q7
+    color 240,96,52
+    visibility full
+    priority 8
+
+    track ATAC_EN_RG_ptimeQ8_Q20
+    parent EN-ATAC_Q20
+    type bigWig
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/EN_RG_ptime_br3_q8_Q20.bw
+    shortLabel ATAC EN_RG Q8
+    longLabel ATAC EN_RG ptime Q8
+    color 240,96,52
+    visibility full
+    priority 9
+
+    track ATAC_EN_RG_ptimeQ9_Q20
+    parent EN-ATAC_Q20
+    type bigWig
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/EN_RG_ptime_br3_q9_Q20.bw
+    shortLabel ATAC EN_RG Q9
+    longLabel ATAC EN_RG ptime Q9
+    color 240,96,52
+    visibility full
+    priority 10
+
+    track ATAC_EN_RG_ptimeQ10_Q20
+    parent EN-ATAC_Q20
+    type bigWig
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/EN_RG_ptime_br3_q10_Q20.bw
+    shortLabel ATAC EN_RG Q10
+    longLabel ATAC EN_RG ptime Q10
+    color 240,96,52
+    visibility full
+    priority 11
+
+    track ATAC_EN_RG_ptimeQ11_Q20
+    parent EN-ATAC_Q20
+    type bigWig
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/EN_RG_ptime_br3_q11_Q20.bw
+    shortLabel ATAC EN_RG Q11
+    longLabel ATAC EN_RG ptime Q11
+    color 240,96,52
+    visibility full
+    priority 12
+
+    track ATAC_EN_RG_ptimeQ12_Q20
+    parent EN-ATAC_Q20
+    type bigWig
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/EN_RG_ptime_br3_q12_Q20.bw
+    shortLabel ATAC EN_RG Q12
+    longLabel ATAC EN_RG ptime Q12
+    color 240,96,52
+    visibility full
+    priority 13
+
+    track ATAC_EN_RG_ptimeQ13_Q20
+    parent EN-ATAC_Q20
+    type bigWig
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/EN_RG_ptime_br3_q13_Q20.bw
+    shortLabel ATAC EN_RG Q13
+    longLabel ATAC EN_RG ptime Q13
+    color 240,96,52
+    visibility full
+    priority 14
+
+    track ATAC_EN_RG_ptimeQ14_Q20
+    parent EN-ATAC_Q20
+    type bigWig
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/EN_RG_ptime_br3_q14_Q20.bw
+    shortLabel ATAC EN_RG Q14
+    longLabel ATAC EN_RG ptime Q14
+    color 240,96,52
+    visibility full
+    priority 15
+
+    track ATAC_EN_RG_ptimeQ15_Q20
+    parent EN-ATAC_Q20
+    type bigWig
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/EN_RG_ptime_br3_q15_Q20.bw
+    shortLabel ATAC EN_RG Q15
+    longLabel ATAC EN_RG ptime Q15
+    color 240,96,52
+    visibility full
+    priority 16
+
+    track ATAC_EN_RG_ptimeQ16_Q20
+    parent EN-ATAC_Q20
+    type bigWig
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/EN_RG_ptime_br3_q16_Q20.bw
+    shortLabel ATAC EN_RG Q16
+    longLabel ATAC EN_RG ptime Q16
+    color 240,96,52
+    visibility full
+    priority 17
+
+    track ATAC_EN_RG_ptimeQ17_Q20
+    parent EN-ATAC_Q20
+    type bigWig
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/EN_RG_ptime_br3_q17_Q20.bw
+    shortLabel ATAC EN_RG Q17
+    longLabel ATAC EN_RG ptime Q17
+    color 240,96,52
+    visibility full
+    priority 18
+
+    track ATAC_EN_RG_ptimeQ18_Q20
+    parent EN-ATAC_Q20
+    type bigWig
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/EN_RG_ptime_br3_q18_Q20.bw
+    shortLabel ATAC EN_RG Q18
+    longLabel ATAC EN_RG ptime Q18
+    color 240,96,52
+    visibility full
+    priority 19
+
+    track ATAC_EN_RG_ptimeQ19_Q20
+    parent EN-ATAC_Q20
+    type bigWig
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/EN_RG_ptime_br3_q19_Q20.bw
+    shortLabel ATAC EN_RG Q19
+    longLabel ATAC EN_RG ptime Q19
+    color 240,96,52
+    visibility full
+    priority 20
+
+    track ATAC_EN_RG_ptimeQ20_Q20
+    parent EN-ATAC_Q20
+    type bigWig
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/EN_RG_ptime_br3_q20_Q20.bw
+    shortLabel ATAC EN_RG Q20
+    longLabel ATAC EN_RG ptime Q20
+    color 240,96,52
+    visibility full
+    priority 21
+
+  track EN-mCG_Q20
+  compositeTrack on
+  parent EN_Q20 on
+  type bigWig
+  shortLabel EN-mCG
+  maxHeightPixels 48:24:12
+  viewLimits 0:1
+  alwaysZero on
+  darkerLabels on
+  allButtonPair on
+  centerLabelsDense on
+
+    track mCG_EN_RG_ENcov0.0005
+    parent EN-mCG_Q20
+    type bigWig 
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/mcg_EN_RG_ENcov0.0005.bw
+    shortLabel mCG EN_RG 
+    longLabel mCG EN_RG ENcov>0.0005
+    color 7,63,127
+    visibility full
+    priority 1
+    
+    track mCG_EN_RG_ptimeQ1_ENcov0.0005_Q20
+    parent EN-mCG_Q20
+    type bigWig 
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/mcg_EN_RG_ptime_q1_ENcov0.0005_Q20.bw
+    shortLabel mCG EN_RG Q1
+    longLabel mCG EN_RG ptime Q1 ENcov>0.0005
+    color 32,128,238
+    visibility full
+    priority 2
+    
+    track mCG_EN_RG_ptimeQ2_ENcov0.0005_Q20
+    parent EN-mCG_Q20 
+    type bigWig 
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/mcg_EN_RG_ptime_q2_ENcov0.0005_Q20.bw
+    shortLabel mCG EN_RG Q2
+    longLabel mCG EN_RG ptime Q2 ENcov>0.0005
+    color 32,128,238
+    visibility full
+    priority 3
+    
+    track mCG_EN_RG_ptimeQ3_ENcov0.0005_Q20
+    parent EN-mCG_Q20 
+    type bigWig 
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/mcg_EN_RG_ptime_q3_ENcov0.0005_Q20.bw
+    shortLabel mCG EN_RG Q3
+    longLabel mCG EN_RG ptime Q3 ENcov>0.0005
+    color 32,128,238
+    visibility full
+    priority 4
+
+    track mCG_EN_RG_ptimeQ4_ENcov0.0005_Q20
+    parent EN-mCG_Q20 
+    type bigWig 
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/mcg_EN_RG_ptime_q4_ENcov0.0005_Q20.bw
+    shortLabel mCG EN_RG Q4
+    longLabel mCG EN_RG ptime Q4 ENcov>0.0005
+    color 32,128,238
+    visibility full
+    priority 5
+
+    track mCG_EN_RG_ptimeQ5_ENcov0.0005_Q20
+    parent EN-mCG_Q20
+    type bigWig
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/mcg_EN_RG_ptime_q5_ENcov0.0005_Q20.bw
+    shortLabel mCG EN_RG Q5
+    longLabel mCG EN_RG ptime Q5 ENcov>0.0005
+    color 32,128,238
+    visibility full
+    priority 6
+
+    track mCG_EN_RG_ptimeQ6_ENcov0.0005_Q20
+    parent EN-mCG_Q20
+    type bigWig
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/mcg_EN_RG_ptime_q6_ENcov0.0005_Q20.bw
+    shortLabel mCG EN_RG Q6
+    longLabel mCG EN_RG ptime Q6 ENcov>0.0005
+    color 32,128,238
+    visibility full
+    priority 7
+
+    track mCG_EN_RG_ptimeQ7_ENcov0.0005_Q20
+    parent EN-mCG_Q20
+    type bigWig
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/mcg_EN_RG_ptime_q7_ENcov0.0005_Q20.bw
+    shortLabel mCG EN_RG Q7
+    longLabel mCG EN_RG ptime Q7 ENcov>0.0005
+    color 32,128,238
+    visibility full
+    priority 8
+
+    track mCG_EN_RG_ptimeQ8_ENcov0.0005_Q20
+    parent EN-mCG_Q20
+    type bigWig
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/mcg_EN_RG_ptime_q8_ENcov0.0005_Q20.bw
+    shortLabel mCG EN_RG Q8
+    longLabel mCG EN_RG ptime Q8 ENcov>0.0005
+    color 32,128,238
+    visibility full
+    priority 9
+
+    track mCG_EN_RG_ptimeQ9_ENcov0.0005_Q20
+    parent EN-mCG_Q20
+    type bigWig
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/mcg_EN_RG_ptime_q9_ENcov0.0005_Q20.bw
+    shortLabel mCG EN_RG Q9
+    longLabel mCG EN_RG ptime Q9 ENcov>0.0005
+    color 32,128,238
+    visibility full
+    priority 10
+
+    track mCG_EN_RG_ptimeQ10_ENcov0.0005_Q20
+    parent EN-mCG_Q20
+    type bigWig
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/mcg_EN_RG_ptime_q10_ENcov0.0005_Q20.bw
+    shortLabel mCG EN_RG Q10
+    longLabel mCG EN_RG ptime Q10 ENcov>0.0005
+    color 32,128,238
+    visibility full
+    priority 11
+
+    track mCG_EN_RG_ptimeQ11_ENcov0.0005_Q20
+    parent EN-mCG_Q20
+    type bigWig
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/mcg_EN_RG_ptime_q11_ENcov0.0005_Q20.bw
+    shortLabel mCG EN_RG Q11
+    longLabel mCG EN_RG ptime Q11 ENcov>0.0005
+    color 32,128,238
+    visibility full
+    priority 12
+
+    track mCG_EN_RG_ptimeQ12_ENcov0.0005_Q20
+    parent EN-mCG_Q20
+    type bigWig
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/mcg_EN_RG_ptime_q12_ENcov0.0005_Q20.bw
+    shortLabel mCG EN_RG Q12
+    longLabel mCG EN_RG ptime Q12 ENcov>0.0005
+    color 32,128,238
+    visibility full
+    priority 13
+
+    track mCG_EN_RG_ptimeQ13_ENcov0.0005_Q20
+    parent EN-mCG_Q20
+    type bigWig
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/mcg_EN_RG_ptime_q13_ENcov0.0005_Q20.bw
+    shortLabel mCG EN_RG Q13
+    longLabel mCG EN_RG ptime Q13 ENcov>0.0005
+    color 32,128,238
+    visibility full
+    priority 14
+
+    track mCG_EN_RG_ptimeQ14_ENcov0.0005_Q20
+    parent EN-mCG_Q20
+    type bigWig
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/mcg_EN_RG_ptime_q14_ENcov0.0005_Q20.bw
+    shortLabel mCG EN_RG Q14
+    longLabel mCG EN_RG ptime Q14 ENcov>0.0005
+    color 32,128,238
+    visibility full
+    priority 15
+
+    track mCG_EN_RG_ptimeQ15_ENcov0.0005_Q20
+    parent EN-mCG_Q20
+    type bigWig
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/mcg_EN_RG_ptime_q15_ENcov0.0005_Q20.bw
+    shortLabel mCG EN_RG Q15
+    longLabel mCG EN_RG ptime Q15 ENcov>0.0005
+    color 32,128,238
+    visibility full
+    priority 16
+
+    track mCG_EN_RG_ptimeQ16_ENcov0.0005_Q20
+    parent EN-mCG_Q20
+    type bigWig
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/mcg_EN_RG_ptime_q16_ENcov0.0005_Q20.bw
+    shortLabel mCG EN_RG Q16
+    longLabel mCG EN_RG ptime Q16 ENcov>0.0005
+    color 32,128,238
+    visibility full
+    priority 17
+
+    track mCG_EN_RG_ptimeQ17_ENcov0.0005_Q20
+    parent EN-mCG_Q20
+    type bigWig
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/mcg_EN_RG_ptime_q17_ENcov0.0005_Q20.bw
+    shortLabel mCG EN_RG Q17
+    longLabel mCG EN_RG ptime Q17 ENcov>0.0005
+    color 32,128,238
+    visibility full
+    priority 18
+
+    track mCG_EN_RG_ptimeQ18_ENcov0.0005_Q20
+    parent EN-mCG_Q20
+    type bigWig
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/mcg_EN_RG_ptime_q18_ENcov0.0005_Q20.bw
+    shortLabel mCG EN_RG Q18
+    longLabel mCG EN_RG ptime Q18 ENcov>0.0005
+    color 32,128,238
+    visibility full
+    priority 19
+
+    track mCG_EN_RG_ptimeQ19_ENcov0.0005_Q20
+    parent EN-mCG_Q20
+    type bigWig
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/mcg_EN_RG_ptime_q19_ENcov0.0005_Q20.bw
+    shortLabel mCG EN_RG Q19
+    longLabel mCG EN_RG ptime Q19 ENcov>0.0005
+    color 32,128,238
+    visibility full
+    priority 20
+
+    track mCG_EN_RG_ptimeQ20_ENcov0.0005_Q20
+    parent EN-mCG_Q20
+    type bigWig
+    bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/mcg_EN_RG_ptime_q20_ENcov0.0005_Q20.bw
+    shortLabel mCG EN_RG Q20
+    longLabel mCG EN_RG ptime Q20 ENcov>0.0005
+    color 32,128,238
+    visibility full
+    priority 21
+
+########################
 # ChIP-seq
 ########################
 
