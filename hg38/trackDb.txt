@@ -1,3 +1,60 @@
+#########################
+# NeuN
+#########################
+
+track NeuN
+superTrack on show
+shortLabel NeuN
+longLabel NeuN SE and interaction
+
+track NeuN_SE
+parent NeuN
+type bigBed 4
+bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/NeuN_SE_hg38.bb
+shortLabel NeuN SE
+longLabel NeuN SE
+visibility pack
+color 0,0,0
+
+track NeuN_Interaction
+parent NeuN
+type bigInteract
+bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/NeuN.hg38.interact.bb
+shortLabel NeuN Interaction
+longLabel NeuN Interaction
+visibility full
+color 56,50,168
+maxHeightPixels 64:32:16
+
+#########################
+# Loop
+#########################
+
+track Loop
+superTrack on show
+shortLabel Loop
+longLabel Loop results from Pengfei
+
+track Fetal_loop
+parent Loop
+type bigInteract
+bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/fetal_loop.interact.bb
+shortLabel Fetal loop
+longLabel Fetal loop
+visibility full
+color 127,12,232
+maxHeightPixels 64:32:16
+
+track Adult_loop
+parent Loop
+type bigInteract
+bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/adult_neuron_loop.interact.bb
+shortLabel Adult neuron loop
+longLabel Adult neuron loop
+visibility full
+color 219,232,12
+maxHeightPixels 64:32:16
+
 ########################
 # cisCor links
 ########################
@@ -352,31 +409,3 @@ longLabel Fetal vs Adult ChIP-seq
     color 0,204,0
     visibility full
     priority 4
-
-#########################
-# NeuN
-#########################
-
-track NeuN
-superTrack on show
-shortLabel NeuN
-longLabel NeuN SE and interaction
-
-track NeuN_SE
-parent NeuN
-type bigBed 4
-bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/NeuN_SE_hg38.bb
-shortLabel NeuN SE
-longLabel NeuN SE
-visibility pack
-color 0,0,0
-
-track NeuN_Interaction
-parent NeuN
-type bigInteract
-bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/NeuN.hg38.interact.bb
-shortLabel NeuN Interaction
-longLabel NeuN Interaction
-visibility full
-color 56,50,168
-maxHeightPixels 64:32:16
