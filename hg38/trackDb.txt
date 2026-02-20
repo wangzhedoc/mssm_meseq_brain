@@ -276,7 +276,7 @@ longLabel EN Cells Q20
   allButtonPair on
   centerLabelsDense on
   
-    track ATAC_EN_RG
+    track ATAC_EN_RG_Q20
     parent EN-ATAC_Q20 
     type bigWig 
     bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/EN_RG_atac.bw
@@ -498,7 +498,7 @@ longLabel EN Cells Q20
   allButtonPair on
   centerLabelsDense on
 
-    track mCG_EN_RG_ENcov0.0005
+    track mCG_EN_RG_ENcov0.0005_Q20
     parent EN-mCG_Q20
     type bigWig 
     bigDataUrl https://github.com/wangzhedoc/mssm_meseq_brain/releases/download/v1.0/mcg_EN_RG_ENcov0.0005.bw
